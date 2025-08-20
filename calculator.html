@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syahril - Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-pattern"></div>
+    <div class="container calculator-container">
+      <div class="user-info">
+        <p>
+          Selamat Datang, <span id="loggedInUser" class="user-name"></span>!
+        </p>
+        <button id="logoutButton" class="logout-button">LOGOUT</button>
+      </div>
+
+      <div class="calculator-app">
+        <div class="display-container">
+          <div id="historyDisplay" class="history-display"></div>
+          <div id="mainDisplay" class="main-display">0</div>
+        </div>
+
+        <div class="buttons-grid">
+          <button class="button function-button" data-value="clear">AC</button>
+          <button class="button function-button" data-value="backspace">
+            DEL
+          </button>
+          <button class="button function-button" data-value="percentage">
+            %
+          </button>
+          <button class="button operator-button" data-value="divide">÷</button>
+
+          <button class="button number-button" data-value="7">7</button>
+          <button class="button number-button" data-value="8">8</button>
+          <button class="button number-button" data-value="9">9</button>
+          <button class="button operator-button" data-value="multiply">
+            ×
+          </button>
+
+          <button class="button number-button" data-value="4">4</button>
+          <button class="button number-button" data-value="5">5</button>
+          <button class="button number-button" data-value="6">6</button>
+          <button class="button operator-button" data-value="subtract">
+            −
+          </button>
+
+          <button class="button number-button" data-value="1">1</button>
+          <button class="button number-button" data-value="2">2</button>
+          <button class="button number-button" data-value="3">3</button>
+          <button class="button operator-button" data-value="add">+</button>
+
+          <button class="button function-button" data-value="pm">±</button>
+          <button class="button number-button" data-value="0">0</button>
+          <button class="button number-button" data-value="decimal">.</button>
+          <button class="button equals-button" data-value="equals">=</button>
+
+          <button class="button scientific-button" data-value="sqrt">√</button>
+          <button class="button scientific-button" data-value="power">
+            x²
+          </button>
+          <button class="button scientific-button" data-value="log">log</button>
+          <button class="button scientific-button" data-value="sin">sin</button>
+          <button class="button scientific-button" data-value="cos">cos</button>
+          <button class="button scientific-button" data-value="tan">tan</button>
+          <button class="button scientific-button" data-value="pi">π</button>
+          <button class="button scientific-button" data-value="e">e</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
