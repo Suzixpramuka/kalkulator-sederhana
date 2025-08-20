@@ -27,7 +27,7 @@ Aplikasi website **Kalkulator Sederhana Modern** adalah kalkulator berbasis web 
 1. **Clone Repository**
 
    ```bash
-   git clone https://github.com/Suzixpramuka/kalkulator-moderns.git
+   git clone https://github.com/Suzixpramuka/kalkulator-sederhana.git
    cd "nama file/project"
    code .
    ```
@@ -40,7 +40,7 @@ Aplikasi website **Kalkulator Sederhana Modern** adalah kalkulator berbasis web 
 
 Kontribusi sangat terbuka!  
 Silakan fork repo ini, buat perubahan, dan ajukan pull request.  
-Saran fitur, pelaporan bug, atau pertanyaan dapat melalui [Issues](https://github.com/Suzixpramuka/{kalkulator-moderns}/issues).
+Saran fitur, pelaporan bug, atau pertanyaan dapat melalui [Issues](https://github.com/Suzixpramuka/{kalkulator-sederhana}/issues).
 
 ## 📄 Lisensi
 
